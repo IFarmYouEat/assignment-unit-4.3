@@ -33,22 +33,30 @@ function isFull(trolley){
     }
 }
 
+function removeItem(item){
+    
+}
+
 // Testing functions addItem
+
 console.log(`Basket now contains ${basket}`);
 console.log(`Basket is now going to add 'chicken'`, addItem('chicken'));
 console.log(`Basket now contains ${basket}`);
 
 // Testing function listItem
+
 console.log(basket);
 console.log(`Testing listItems expect each item in the basket to appear on a separate line`);
 listItems(basket);
 
 // Testing function empty
+
 console.log(`Testing function 'empty' expect each item to appear in reverse order as it is removed`)
 empty(basket);
 console.log(basket);
 
 // Testing function isFull
+
 console.log(`testing to see if function isFull will return (true if items are equal to or greater than 5)`)
 console.log(isFull(basket));
 addItem('chicken');
